@@ -17,3 +17,10 @@ cabal.sandbox.config
 *.eventlog
 .stack-work/
 cabal.project.local
+
+
+# Ignore test builds.
+tests/Main
+_cache
+_store
+_site
