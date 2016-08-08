@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex: 1 1 5vh;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+logo a {
+  color: black;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main {
+  display: block;
+  width: 100vw;
+  /* height: 90vh; */
+  background: url('/images/stairs.jpg') 45% 0% no-repeat;
+  background-size: cover;
+  flex: 1 1 90vh;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+div.info {
+  color: #555;
+  font-size: 14px;
+  font-style: italic;
+}
+

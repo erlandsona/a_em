@@ -24,3 +24,7 @@ tests/Main
 _cache
 _store
 _site
+
+site
+site.hi
+site.o
